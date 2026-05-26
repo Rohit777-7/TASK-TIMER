@@ -99,7 +99,7 @@ task-tracker-app
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/task-tracker-app.git
+git clone https://github.com/Rohit777-7/TASK-TIMER
 ```
 
 ---
