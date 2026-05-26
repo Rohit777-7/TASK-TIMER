@@ -1,6 +1,18 @@
 # TaskFlow – Full Stack Task & Productivity Tracker
 
-TaskFlow is a full-stack MERN application that helps users manage daily tasks, track working time in real-time, and monitor productivity through a clean dashboard interface.
+## Live Demo
+
+Frontend: https://task-timer-azure.vercel.app/
+
+Backend: https://task-timer-9ljo.onrender.com/
+
+---
+
+# Overview
+
+TaskFlow is a full-stack MERN application that helps users manage daily tasks, track productivity using a real-time timer, and monitor daily progress through a modern dashboard interface.
+
+The application includes secure JWT authentication, protected routes, task CRUD operations, time tracking, and productivity summaries.
 
 ---
 
@@ -11,31 +23,32 @@ TaskFlow is a full-stack MERN application that helps users manage daily tasks, t
 - User Login
 - JWT Authentication
 - Protected Routes
-- Secure User-Specific Data
+- User-specific data security
 
 ## Task Management
 - Create Tasks
 - Update Task Status
 - Delete Tasks
 - View All Tasks
+- Pending / In Progress / Completed status management
 
-## Real-Time Time Tracking
+## Real-Time Timer Tracking
 - Start Timer
 - Stop Timer
-- Track Total Time Per Task
-- Store Time Logs in MongoDB
+- Store Time Logs
+- Total Time Tracking Per Task
 
-## Daily Summary
+## Daily Summary Dashboard
 - Total Tasks
 - Completed Tasks
 - Pending Tasks
-- Total Time Tracked
+- Total Productivity Time
 
 ## UI/UX
-- Modern Dark Dashboard
+- Modern Dark Theme
 - Responsive Layout
-- Clean User Interface
 - Glassmorphism Cards
+- Clean Dashboard Design
 
 ---
 
@@ -77,5 +90,130 @@ task-tracker-app
 │   ├── models
 │   ├── routes
 │   └── server.js
+```
 
+---
 
+# Installation & Setup
+
+## 1. Clone Repository
+
+```bash
+git clone https://github.com/your-username/task-tracker-app.git
+```
+
+---
+
+## 2. Open Project Folder
+
+```bash
+cd task-tracker-app
+```
+
+---
+
+# Backend Setup
+
+## 1. Go To Server Folder
+
+```bash
+cd server
+```
+
+---
+
+## 2. Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+## 3. Create `.env` File
+
+Create a `.env` file inside the `server` folder and add:
+
+```env
+MONGO_URI=your_mongodb_connection
+JWT_SECRET=your_secret_key
+PORT=5000
+```
+
+---
+
+## 4. Start Backend Server
+
+```bash
+npm run dev
+```
+
+Backend will run on:
+
+```bash
+http://localhost:5000
+```
+
+---
+
+# Frontend Setup
+
+## 1. Open New Terminal
+
+```bash
+cd client
+```
+
+---
+
+## 2. Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+## 3. Start Frontend
+
+```bash
+npm run dev
+```
+
+Frontend will run on:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+# Deployment
+
+## Frontend Deployment
+Deployed on Vercel
+
+## Backend Deployment
+Deployed on Render
+
+---
+
+# Future Improvements
+
+- Weekly Productivity Analytics
+- Charts & Graphs
+- AI Task Suggestions
+- Notifications & Reminders
+- Drag & Drop Task Management
+
+---
+
+# Author
+
+Rohit Yadav
+
+---
+
+# Project Status
+
+Completed and Fully Deployed 🚀
